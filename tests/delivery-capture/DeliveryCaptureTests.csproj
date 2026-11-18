@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile
+      Include="../../simulators/chat-receiver/HookEndpoints.cs"
+      Link="Actual/HookEndpoints.cs"
+    />
+    <Compile
+      Include="../../simulators/chat-receiver/CaptureJournal.cs"
+      Link="Actual/CaptureJournal.cs"
+    />
+  </ItemGroup>
+</Project>
